@@ -50,6 +50,7 @@ small {
   border-radius: 20px;
   border: 1px solid #ddd;
   margin-bottom: 1rem;
+  outline-width: 0;
 }
 
 .button {
@@ -67,7 +68,7 @@ small {
   background-color: rgba(0,0,0,0.85);
 }
 
-@media (min-width:786px){
+@media (min-width: 786px){
   .form {
       grid-template-columns: auto 1fr auto;
       grid-gap: 1rem;
